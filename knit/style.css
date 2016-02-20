@@ -1,0 +1,62 @@
+div.top {
+  height: 45.5%;
+  left: 12.5%;
+  top: 5.5%;
+  width: 68.5%
+}
+
+div.top img {
+  width: 640px;
+  left: 20px;
+  top: 10px;
+}
+
+div.bottom {
+  height: 35.5%;
+  left: 24%;
+  top: 59%;
+  width: 47%;
+}
+
+.bottom img {
+  left: 161px;
+  top: 122px;
+  width: 300px;
+}
+
+.right {
+  height: 62.9%;
+  left: 76%;
+  top: 31.8%;
+  width: 20.5%;
+}
+
+div.right img {
+  left: 120px;
+  top: 7px;
+  height: 330px;
+}
+
+div.left {
+  height: 45.5%;
+  left: 4%;
+  top: 39.1%;
+  width: 25%;
+}
+
+div.left ul {
+  top: 100px;
+  margin-left: -23px;
+  position: relative;
+}
+
+div.left li {
+  list-style-type: none;
+}
+
+div.left img {
+  top: 127px;
+  left: 10px;
+  display: block;
+  margin-bottom: 10px;
+}

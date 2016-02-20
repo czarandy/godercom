@@ -1,0 +1,39 @@
+html, body {
+  text-align: center;
+}
+
+div, p {
+  text-align: left;
+}
+
+a img {
+  border: 0;
+}
+
+body {
+  background-color: #757361;
+}
+
+div.floater {
+  float: left;
+  height: 50%;
+  margin-bottom: -300px;
+}
+
+div.container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 1000px;
+  height: 550px;
+  clear: both;
+}
+
+div.container div {
+  border: 5px solid #bfbfbf;
+  position: absolute;
+}
+
+div.container div img {
+  position: relative;
+}

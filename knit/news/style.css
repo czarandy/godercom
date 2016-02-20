@@ -1,0 +1,13 @@
+div.bottom p.text {
+  margin: 50px 25px 0 25px;;
+  line-height: 110%;
+  font-size: 20pt;
+  text-align: center;
+}
+
+div.right img {
+  left: 105px;
+  top: 60px;
+  height: 330px;
+}
+

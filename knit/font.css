@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'RSSansSerifRegular';
+  src: url('font/rssansse-webfont.eot');
+  src: url('font/rssansse-webfont86d7.eot?iefix') format('eot'),
+       url('font/rssansse-webfont.woff') format('woff'),
+       url('font/rssansse-webfont.ttf') format('truetype'),
+       url('font/rssansse-webfont.svg#webfont7QBO1W3l') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, a {
+  font-family: RSSansSerifRegular;
+  font-size: 22pt;
+  color: #d0ceb9;
+  text-decoration: none;
+}

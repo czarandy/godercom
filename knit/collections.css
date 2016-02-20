@@ -1,0 +1,51 @@
+div.top {
+  height: 18%;
+  left: 10%;
+  top: 0%;
+  width: 68%
+}
+
+div.top img {
+  width: 300px;
+  left: 160px;
+  top: 3px;
+}
+
+div.bottom {
+  height: 464px;
+  left: 228px;
+  top: 26%;
+  width: 37%;
+}
+
+div.right {
+  height: 97%;
+  left: 64%;
+  top: 13.5%;
+  width: 35%;
+}
+
+div.left {
+  height: 80%;
+  left: 0%;
+  top: 13.5%;
+  width: 18.5%;
+}
+
+div.left > ul {
+  top: 135px;
+  margin-left: -23px;
+  position: relative;
+}
+
+div.left li {
+  list-style-type: none;
+}
+
+div.left a {
+  font-family: RSSansSerifRegular;
+  font-size: 22pt;
+  color: #d0ceb9;
+  text-decoration: none;
+}
+

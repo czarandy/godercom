@@ -1,0 +1,51 @@
+div.bottom table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+div.bottom table td {
+  padding: 5px;
+}
+
+div.bottom td img {
+  width: 100px;
+}
+
+div.right img.current {
+  width: 250px;
+  margin: 50px 40px 0 50px;
+}
+
+
+div.right div.selectors {
+  margin-top: 15px;
+  margin-left: 5px;
+  border: 0;
+}
+
+div.right div.selectors img {
+  width: 100px;
+  margin-left: 10px;
+}
+
+li.selected a {
+  color: white;
+}
+
+li.mbm {
+  margin-bottom: 10px;
+}
+
+div.left div.fb_like {
+  border: 0;
+  top: 370px;
+  width: 190px;
+  height: 60px;
+}
+
+div.left div.fb_like iframe {
+  border: 0;
+  height: 60px;
+  overflow: hidden;
+}
