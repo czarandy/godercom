@@ -2,101 +2,168 @@
 <html>
 <head>
 <title>Goder Family</title>
-<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/yeti/bootstrap.min.css" rel="stylesheet" integrity="sha384-yxFy3Tt84CcGRj9UI7RA25hoUMpUPoFzcdPtK3hBdNgEGnh9FdKgMVM+lbAZTKN2" crossorigin="anonymous">
 <style>
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #f6f4ef;
+  color: #171717;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+.page {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 24px 44px;
+}
+.page-header {
+  border-bottom: 1px solid #171717;
+  margin: 44px 0 34px;
+  padding-bottom: 18px;
+}
+.page-header h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+.people-grid {
+  display: grid;
+  gap: 34px 28px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.thumbnail {
+  background: transparent;
+}
 .thumbnail > img {
+  background: #ddd8cf;
+  border-radius: 10px;
+  display: block;
   width: 100%;
-  height: 260px;
+  height: 320px;
   object-fit: cover;
+  transition: filter .2s ease, transform .2s ease;
 }
 .thumbnail > img.position-top {
   object-position: top;
 }
+.thumbnail .caption {
+  color: #171717;
+  padding: 14px 0 0;
+}
+.thumbnail h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 10px;
+}
+.thumbnail p {
+  font-size: 14px;
+  line-height: 1.35;
+  margin: 0 0 5px;
+}
+.thumbnail a {
+  color: inherit;
+  text-decoration: none;
+}
+.thumbnail a:hover,
+.thumbnail a:focus {
+  text-decoration: underline;
+}
+.thumbnail:hover > img {
+  filter: contrast(1.04) saturate(.95);
+}
+@media (max-width: 767px) {
+  .page {
+    padding: 0 18px 34px;
+  }
+  .page-header {
+    margin-top: 28px;
+  }
+  .page-header h1 {
+    font-size: 34px;
+  }
+  .people-grid {
+    grid-template-columns: 1fr;
+  }
+  .thumbnail > img {
+    height: 360px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1040px) {
+  .people-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 </style>
 </head>
 <body>
-<div class="container">
-<div class="row">
-<div class="col-sm-12">
+<main class="page">
 <div class="page-header">
   <h1>Goder Family</h1>
 </div>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
+<div class="people-grid">
 
-    <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img src="images/barsik.jpg" alt="Galina Barskaya">
       <div class="caption">
-        <h3>Galina Barskaya</h3>
-        <p><a href="/beads/index.html">Jewelery by Varvara</a></p>
-        <p><a href="http://www.gbstockphoto.com/">Stock Photography by Galina Barskaya</a></p>
-        <p><a href="/knit/index.html">ViGi Studio</a></p>
+        <h3><a href="https://www.facebook.com/galina.barskaya/">Galina Barskaya</a></h3>
       </div>
     </div>
-  </div>
 
-  <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img src="images/dimitry.jpg" alt="Dimitry Goder">
       <div class="caption">
         <h3><a href="https://www.linkedin.com/in/dimitry-goder-1a64b06">Dimitry Goder</a></h3>
       </div>
     </div>
-  </div>
 
 
 
-    <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img src="images/alexey.jpg" alt="Alexey Goder">
       <div class="caption">
         <h3><a href="/alexey">Alexey Goder</a></h3>
       </div>
     </div>
-  </div>
 
-      <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img src="images/lana.jpg" alt="Lana Goder">
       <div class="caption">
         <h3><a href="https://www.linkedin.com/in/lanagoder/">Lana Goder</a></h3>
       </div>
     </div>
-  </div>
-  </div>
-  <div class="row">
-        <div class="col-sm-6 col-md-3">
+
     <div class="thumbnail">
       <img class="position-top" src="images/beth.jpg" alt="Beth Goder">
       <div class="caption">
         <h3><a href="http://bethgoder.com/">Beth Goder</a></h3>
       </div>
     </div>
-  </div>
 
-          <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img src="images/andrey.jpg" alt="Andrey Goder">
       <div class="caption">
         <h3><a href="http://andreygoder.com/">Andrey Goder</a></h3>
       </div>
     </div>
-  </div>
 
-            <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
       <img src="images/sergey.jpg" alt="Sergey Goder">
       <div class="caption">
         <h3><a href="http://www.linkedin.com/pub/sergey-goder/19/922/494">Sergey Goder</a></h3>
       </div>
     </div>
-  </div>
+
+    <div class="thumbnail">
+      <img src="images/elena.jpg" alt="Elena Caceres">
+      <div class="caption">
+        <h3><a href="https://www.linkedin.com/in/elenacaceres/">Elena Caceres</a></h3>
+      </div>
+    </div>
 
 </div>
-</div>
+</main>
 </body>
 </html>
