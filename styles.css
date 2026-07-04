@@ -3,9 +3,10 @@
 }
 
 body {
-  background: #f6f4ef;
+  background: #f3f3f1;
   color: #171717;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
   margin: 0;
 }
 
@@ -16,14 +17,14 @@ body {
 }
 
 .page-header {
-  border-bottom: 1px solid #171717;
-  margin: 44px 0 34px;
-  padding-bottom: 18px;
+  margin: 48px 0 38px;
+  padding-bottom: 0;
+  text-align: center;
 }
 
 .page-header h1 {
   font-size: 42px;
-  font-weight: 700;
+  font-weight: 650;
   line-height: 1;
   margin: 0;
 }
@@ -38,7 +39,11 @@ body {
   background: transparent;
 }
 
-.thumbnail > img {
+.thumbnail .image-link {
+  display: block;
+}
+
+.thumbnail img {
   background: #ddd8cf;
   border-radius: 10px;
   display: block;
@@ -48,17 +53,18 @@ body {
   transition: filter .2s ease, transform .2s ease;
 }
 
-.thumbnail > img.position-top {
+.thumbnail img.position-top {
   object-position: top;
 }
 
 .thumbnail .caption {
   color: #171717;
   padding: 14px 0 0;
+  text-align: center;
 }
 
 .thumbnail h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.15;
   margin: 0 0 10px;
@@ -80,7 +86,7 @@ body {
   text-decoration: underline;
 }
 
-.thumbnail:hover > img {
+.thumbnail:hover img {
   filter: contrast(1.04) saturate(.95);
 }
 
@@ -101,7 +107,7 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .thumbnail > img {
+  .thumbnail img {
     height: 360px;
   }
 }
